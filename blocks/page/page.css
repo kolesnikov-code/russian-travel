@@ -1,0 +1,15 @@
+.page {
+  background-color: #2a2c2f;
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter';
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .page {
+    background-color: #3b85f3;
+    width: 100%;
+    margin: 40 auto;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  }
+}
