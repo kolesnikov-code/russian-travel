@@ -1,6 +1,6 @@
 .intro {
   margin: 0 auto;
-  margin-top: 92px;
+  padding-top: 92px;
   width: 984px;
-  height: 429px;
+  min-height: 429px;
 }
