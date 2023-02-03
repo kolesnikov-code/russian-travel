@@ -1,7 +1,14 @@
 .cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   margin: 0;
   margin-top: 92px;
   width: 1184px;
   height: 740px;
   background-image: url('./../../images/__background.png');
+  background-size: cover;
+  background-position: center;
 }

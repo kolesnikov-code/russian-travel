@@ -1,6 +1,5 @@
 .place__image {
   margin: 0;
-  width: 460px;
-  height: 460px;
+  justify-self: stretch;
   grid-area: image;
 }

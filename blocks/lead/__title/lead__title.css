@@ -9,3 +9,13 @@
   line-height: 100px;
   color: #ffffff;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .lead__title {
+    width: 288px;
+    height: 88px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+  }
+}

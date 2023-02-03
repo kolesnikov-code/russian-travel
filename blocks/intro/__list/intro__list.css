@@ -11,3 +11,10 @@
   line-height: 18px;
   color: #ffffff;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .intro__list {
+    width: 288px;
+    margin-top: 34px;
+  }
+}
