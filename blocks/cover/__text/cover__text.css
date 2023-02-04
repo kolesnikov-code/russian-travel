@@ -1,7 +1,13 @@
 .cover__text {
-  margin: 0 auto;
   position: absolute;
-  z-index: 3;
   width: 560px;
   height: 250px;
+  z-index: 2;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cover__text {
+    width: 288px;
+    height: 134px;
+  }
 }

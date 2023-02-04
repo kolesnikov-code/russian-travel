@@ -1,8 +1,9 @@
 .intro {
   margin: 0 auto;
+  padding: 0;
   padding-top: 92px;
   width: 984px;
-  min-height: 429px;
+  min-height: px;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
