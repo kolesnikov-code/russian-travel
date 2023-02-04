@@ -3,6 +3,7 @@
   padding: 0;
   padding-top: 92px;
   width: 1184px;
+  min-height: 671px;
   display: grid;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);

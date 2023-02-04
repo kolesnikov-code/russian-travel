@@ -1,7 +1,8 @@
 .intro__title {
   margin: 0;
+  padding: 0;
   width: 690px;
-  height: 58px;
+  min-height: 58px;
   font-family: 'Inter';
   font-size: 54px;
   font-weight: 900;
@@ -17,7 +18,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .intro__title {
-    width: 288px;
+    width: 250px;
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;

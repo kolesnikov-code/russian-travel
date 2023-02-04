@@ -1,5 +1,4 @@
 .place__image {
-  margin: 0;
   justify-self: stretch;
   grid-area: image;
 }

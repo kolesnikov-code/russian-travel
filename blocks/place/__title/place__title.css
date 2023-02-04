@@ -1,13 +1,15 @@
 .place__title {
   margin: 0 auto;
+  padding: 0;
   width: 460px;
+  min-height: 35px;
   color: #ffffff;
   font-family: 'Inter';
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
-  align-self: end;
   grid-area: title;
+  align-self: end;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -18,7 +20,8 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .place__title {
-    width: 340px;
+    margin: 0;
+    width: 330px;
     font-size: 42px;
     line-height: 46px;
   }
