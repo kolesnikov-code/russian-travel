@@ -11,8 +11,8 @@
   line-height: 29.34px;
 }
 
-.place__paragraph:first-of-type {
-  margin-bottom: 25px;
+.place__paragraph:nth-of-type(2n) {
+  margin-top: 25px;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {

@@ -11,6 +11,10 @@
   letter-spacing: 0.2px;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .footer__link {
     font-size: 24px;

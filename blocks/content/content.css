@@ -1,16 +1,24 @@
 .content {
+  margin: 0 auto;
   display: grid;
   row-gap: 92px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .intro {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
     row-gap: 88px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .intro {
+  .content {
     row-gap: 64px;
   }
 }
