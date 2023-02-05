@@ -1,0 +1,29 @@
+.header__lang-link {
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  min-height: 28px;
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*
+Сделал hover осознанно, пока нет JS просто показал что underline будет
+*/
+
+.header__lang-link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__lang-link {
+    width: 22px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}

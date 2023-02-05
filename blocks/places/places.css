@@ -1,6 +1,5 @@
 .places {
   margin: 0 auto;
-  margin-top: 92px;
   padding: 0;
   width: 984px;
   display: grid;
@@ -27,6 +26,5 @@
   .places {
     width: 320px;
     row-gap: 50px;
-    margin-top: 64px;
   }
 }

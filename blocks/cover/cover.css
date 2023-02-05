@@ -3,7 +3,6 @@
   height: 740px;
   margin: 0 auto;
   padding: 0;
-  padding-top: 92px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +19,6 @@
   .cover {
     width: 768px;
     height: 480px;
-    padding-top: 65px;
   }
 }
 
@@ -28,6 +26,5 @@
   .cover {
     width: 320px;
     height: 200px;
-    padding-top: 66px;
   }
 }

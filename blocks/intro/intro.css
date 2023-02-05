@@ -1,7 +1,6 @@
 .intro {
   margin: 0 auto;
   padding: 0;
-  padding-top: 92px;
   width: 984px;
   min-height: px;
 }
@@ -15,14 +14,12 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .intro {
     width: 720px;
-    padding-top: 88px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .intro {
     width: 288px;
-    padding-top: 64px;
     min-height: 750px;
   }
 }

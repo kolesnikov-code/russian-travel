@@ -3,6 +3,10 @@
   height: 52px;
   margin: 0 auto;
   margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
