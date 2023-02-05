@@ -3,7 +3,7 @@
   margin-top: 33px;
   padding: 0;
   width: 690px;
-  height: 90px;
+  min-height: 90px;
   list-style: none;
   font-family: 'Inter';
   font-size: 12px;
