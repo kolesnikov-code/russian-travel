@@ -1,7 +1,7 @@
 .place__website {
   margin: 0;
-  width: 456px;
-  height: 46px;
+  max-width: 456px;
+  width: 100%;
   align-self: end;
   grid-area: website;
   display: flex;
@@ -11,13 +11,13 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .place__website {
-    width: 352px;
+    max-width: 352px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .place__website {
     margin: 0 auto;
-    width: 288px;
+    max-width: 288px;
   }
 }
