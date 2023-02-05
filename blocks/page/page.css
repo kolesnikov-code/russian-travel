@@ -1,6 +1,6 @@
 .page {
   background-color: #2a2c2f;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0;
   -moz-osx-font-smoothing: grayscale;
@@ -9,22 +9,23 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .page {
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .page {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .page {
-    width: 320px;
+    max-width: 320px;
   }
 }

@@ -2,20 +2,18 @@
   margin: 0;
   margin-top: 33px;
   padding: 0;
-  width: 690px;
-  min-height: 90px;
+  max-width: 690px;
+  width: 100%;
   list-style: none;
-  font-family: 'Inter';
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
   color: #ffffff;
-  letter-spacing: 0.2px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .intro__list {
-    width: 288px;
+    max-width: 288px;
     margin-top: 34px;
   }
 }
